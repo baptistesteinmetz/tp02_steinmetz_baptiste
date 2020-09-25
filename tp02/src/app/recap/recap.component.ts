@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { FormComponent } from '../form/form.component';
 
 @Component({
   selector: 'app-recap',
@@ -7,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RecapComponent implements OnInit {
   visible: boolean = false;
-  
+
+
   constructor() { }
 
   ngOnInit(): void {

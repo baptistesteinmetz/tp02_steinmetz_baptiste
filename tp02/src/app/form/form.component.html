@@ -1,2 +1,57 @@
-<p>form works!</p>
-<span> {{ firstname }} </span>
+<!-- <p>form works!</p>  -->
+<!-- <span> {{ user.firstname }} </span> -->
+<div class="form-container">
+
+  <form onsubmit="validation()">
+      <div class="c-input">
+          <label for="lastname">Nom:</label>
+          <input [(ngModel)]="user.firstname" type="text" id="lastname" name="lastname" required>
+      </div>
+      <div class="c-input">
+          <label for="firstname">Prénom:</label>
+          <input type="text" id="firstname" name="firstname" required>
+      </div>
+      <div class="c-input">
+          <label for="adress">Adresse:</label>
+          <input type="text" id="adress" name="adress" required>
+      </div>
+
+      <div class="c-input">
+          <label for="name">Code postal (6 caractères):</label>
+          <input type="text" id="zip" name="zip" required minlength="6" maxlength="6" size="6">
+      </div>
+      <div class="c-input">
+          <label for="name">Ville:</label>
+          <input type="text" id="name" name="name" required >
+      </div>
+      <div class="c-input">
+          <label for="phone">Téléphone:</label>
+          <input type="text" id="phone" name="phone" required >
+      </div>
+
+      <div class="separator"></div>
+
+      <div class="c-input">
+          <label for="email">Email :</label>
+          <input type="text" id="email" name="email" required>
+      </div>
+      <div class="c-input">
+          <label for="pass">Password:</label>
+          <input type="password" id="pass" name="pass" required >
+      </div>
+      <div class="c-input">
+          <label for="confirm-pass">Confirmer Pass:</label>
+          <input type="password" id="confirm-pass" name="confirm-pass" required >
+      </div>
+
+      <div class="separator"></div>
+
+      <div class="c-input btn-container">
+          <input type="submit" value="Annuler">
+          <input type="submit" class="validate" value="Valider">
+      </div>
+      <div class="errors">
+
+      </div>
+  </form>
+</div>
