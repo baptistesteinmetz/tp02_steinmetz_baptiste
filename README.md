@@ -2,26 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
 
-## Development server
+## Ecrire une page SPA avec Angula
+  Cette page doit inclure les composants suivants : 
+    - Un composant tetiere 
+    - Un composant footer
+    - Un composant compte formulaire saisie informations client: –Nom, prénom, adresse, cp, ville , tel, email, civilité, password, login, pays; 
+    - Un composant récapitulatif des données saisies réaffichées après validation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Ecrire des contrôles de surface en typescript
+  - Elle doit en particulier vérifierlavalidité des données saisies.
+  - Réaliser une DIRECTIVE Angular spécifique permettant d’indiquer à l’utilisateur les données à corriger.
+  - Réaliser un PIPE Angular spécifique permettant le formatage des numéros de téléphones suivant la norme internationale
