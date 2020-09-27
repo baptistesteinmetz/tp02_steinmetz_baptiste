@@ -48,9 +48,3 @@ Thumbs.db
 
 .browserslistrc
 .editorconfig
-angular.json
-karma.conf.js
-tsconfig.app.json
-tsconfig.json
-tsconfig.spec.json
-tslint.json
