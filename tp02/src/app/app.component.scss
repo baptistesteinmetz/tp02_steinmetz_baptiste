@@ -12,4 +12,11 @@ body {
 #main {
   display: flex;
   justify-content: space-evenly;
+  height: 100%;
+}
+
+#component-form {
+  width:100%;
+  display:flex;
+  justify-content: center;
 }

@@ -1,7 +1,7 @@
 export class User {
 
-  firstname: string;
-  lastname: string;
+    firstname: string;
+    lastname: string;
     adress: string;
     zipcode: string;
     city: string;
@@ -10,6 +10,7 @@ export class User {
     password: string;
     login: string;
     country: string;
+    phone: string;
 
     constructor () {
       // this.firstname = firstname;
