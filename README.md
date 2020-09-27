@@ -3,11 +3,11 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
 
 ## Ecrire une page SPA avec Angula
-  Cette page doit inclure les composants suivants : 
-    - Un composant tetiere 
-    - Un composant footer
-    - Un composant compte formulaire saisie informations client: –Nom, prénom, adresse, cp, ville , tel, email, civilité, password, login, pays; 
-    - Un composant récapitulatif des données saisies réaffichées après validation
+Cette page doit inclure les composants suivants : 
+  - Un composant tetiere 
+  - Un composant footer
+  - Un composant compte formulaire saisie informations client: –Nom, prénom, adresse, cp, ville , tel, email, civilité, password, login, pays; 
+  - Un composant récapitulatif des données saisies réaffichées après validation
 
 ## Ecrire des contrôles de surface en typescript
   - Elle doit en particulier vérifierlavalidité des données saisies.
