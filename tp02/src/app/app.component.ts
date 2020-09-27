@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'tp02';
+  isAuth: boolean = false;
+
+  constructor() {
+    setTimeout(
+      () => {
+        this.isAuth = true;
+      }, 4000,
+    );
+  }
+
+  onAllumer() {
+    console.log('on allume tout');
+  }
+
 }

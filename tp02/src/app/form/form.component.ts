@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { User } from '../User';
 @Component({
   selector: 'app-form',
@@ -8,7 +8,7 @@ import { User } from '../User';
 
 
 export class FormComponent implements OnInit {
-  public user: User;
+  public user: User = new User();
   visible: boolean;
   // lastname: string;
   // firstname: string;
@@ -21,14 +21,14 @@ export class FormComponent implements OnInit {
   // login: string;
   // country: string;
 
-
+  @Input() userName: string = this.user.firstname;
   constructor() {
     this.user = new User();
   }
 
   ngOnInit(): void {
     // this.firstname = "Baptiste";
-    this.user.firstname = "Baptiste";
+    // this.user.firstname = "Baptiste";
   }
 
 }

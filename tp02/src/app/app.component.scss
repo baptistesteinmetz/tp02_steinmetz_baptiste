@@ -1,6 +1,13 @@
+@import "./colors.scss";
+
 body {
   margin: 0;
   height: 100%;
+  font-family:Arial;
+}
+#app {
+  background:$body;
+
 }
 #main {
   display: flex;
